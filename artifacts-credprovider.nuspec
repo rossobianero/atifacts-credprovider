@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>artifacts-credprovider</id>
+    <title>artifacts-credprovider</title>
+    <version>$version$</version>
+    <owners>rossobianero</owners>
+    <authors>rossobianero</authors>
+    <copyright>Copyright © rossobianero</copyright>
+    <projectUrl>https://github.com/rossobianero/artifacts-credprovider</projectUrl>
+    <projectSourceUrl>https://github.com/rossobianero/artifacts-credprovider</projectSourceUrl>
+    <tags>rossobianero artifacts-credprovider</tags>
+    <description>Installs artifacts-credprovider using chocolatey</description>
+  </metadata>
+  <dependencies>
+      <dependency id="nuget.commandline" />
+  </dependencies>
+  <files>
+    <file src="tools/*" target="tools" />
+  </files>
+</package>
